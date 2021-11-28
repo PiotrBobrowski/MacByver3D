@@ -30,10 +30,8 @@ end
 
 data.eulerAngles = eulerAngles;
 data.pointCoord = pointCoord;
-data.scanStep.stepX = stepX;
-data.scanStep.stepY = stepY;
-data.dimensions.maxX = maxX;
-data.dimensions.maxY = maxY;
+data.scanStep = [stepY, stepX];
+data.dimensions = [maxY, maxX];
 
 finishGood;
 
